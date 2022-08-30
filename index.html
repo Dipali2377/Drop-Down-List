@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+
+    <style>
+      .dropbtn {
+        background-color: rgb(20, 160, 20);
+        border: none;
+        color: white;
+        padding: 14px 16px;
+        width: 80px;
+        margin-left: 370px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 300px;
+      }
+
+      .droplist a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 14px 16px;
+      }
+      .droplist {
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 00, 0.4);
+        display: none;
+        margin-left: 370px;
+      }
+      .dropdown .dropbtn:hover {
+        background-color: rgb(83, 238, 83);
+      }
+      .droplist a:hover {
+        background-color: gray;
+      }
+      .dropdown:hover .droplist {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <hr />
+    <h2 style="text-align: center">The Dropdown List</h2>
+    <hr />
+
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+
+      <div class="droplist">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <hr />
+  </body>
+</html>
